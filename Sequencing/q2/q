@@ -1,0 +1,62 @@
+Problem Statement
+
+
+
+Dinesh is developing a geometry calculator program for a Math class. He wants to write a program that allows users to calculate the area of different geometric shapes, such as circles, rectangles, and triangles.
+
+
+
+Users can select the type of shape they want to calculate the area for, and the program will perform the corresponding calculation using a 'switch-case' statement.
+
+
+
+Formulas Used:
+
+Area of Circle = 3.14 * radius * radius
+
+Area of Rectangle = length * width
+
+Area of Triangle = 0.5 * base * height
+
+Input format :
+The first line of input consists of an integer, representing the geometric shape the user wants to calculate the area for (1 for a circle, 2 for a rectangle, and 3 for a triangle).
+
+If the choice is 1, the second line of input consists of a double value R, representing the radius of the circle.
+If the choice is 2, the second line and third lines of input consist of double values L and B, representing the length and width of the rectangle.
+If the choice is 3, the second and third lines of input consist of double values P and Q representing the base and height of the triangle.
+Output format :
+If the valid choice is entered, the output prints "X sq.units" where X represents the calculated area of the specific shape, rounded off to two decimal places.
+
+Otherwise, the output prints "Invalid choice"
+
+
+
+Refer to the sample output for the formatting specifications.
+
+Code constraints :
+The given test cases fall under the following constraints:
+
+1.0 ≤ R, L, B, P, Q ≤ 100.0
+
+Sample test cases :
+Input 1 :
+1
+5.1
+Output 1 :
+81.67 sq.units
+Input 2 :
+2
+4.3
+6.1
+Output 2 :
+26.23 sq.units
+Input 3 :
+3
+3.7
+5.6
+Output 3 :
+10.36 sq.units
+Input 4 :
+4
+Output 4 :
+Invalid choice
